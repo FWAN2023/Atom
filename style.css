@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+body {
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.container p {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+
+#prayerTimes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+    
+.prayer-time {
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+    
+.prayer-time span {
+    font-weight: bold;
+    margin-left: 10px;
+}
